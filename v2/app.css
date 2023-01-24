@@ -1,0 +1,47 @@
+html {
+    background-color: #fffcff;
+}
+
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5rem;
+    font-family: 'Mukta', Verdana, Geneva, Tahoma, sans-serif;
+    color: #50514f;
+    text-decoration: rgb(28, 4, 4) underline;
+    /* letter-spacing: 5px; */
+}
+
+#HeroImage {
+    text-align: center;
+    height: 50%;
+    width: 50%;
+
+}
+
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+/* 
+h2 {}
+
+h3 {}
+
+p {}
+
+--font-colour1: #023047 font-family: 'Mukta',
+sans-serif;
+
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 2;
+} */
