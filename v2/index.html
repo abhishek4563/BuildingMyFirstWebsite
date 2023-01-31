@@ -1,3 +1,9 @@
+<!-- make a  header 
+make a explore more buttonr
+make a contact me button 
+add transitiosn for topics
+add transitions for 
+define a basic create and display post for notes section -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,19 +13,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abhishek's Notes</title>
     <link rel="stylesheet" href="app.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@700&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&display=swap');
-    </style>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather&family=Mukta:wght@400;600;700;800&family=Roboto+Slab:wght@500&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <!-- add attribution to iconpacks Icon by <a href='https://iconpacks.net/?utm_source=link-attribution&utm_content=798'>Iconpacks</a>  -->
-    <h1>Abhishek's Notes</h1>
-    <div id="HeroImage">
-        <img src="MyAvatar(PH).png" alt="Placeholder">
+    <!-- <h1>Abhishek's Notes</h1> -->
+    <div id="Banner">
+        <figure>
+
+            <img src="MyAvatar(PH).png" alt="Placeholder" id="BannerImage">
+            <figcaption id="BannerSubtitle">Hello there! I am Abhishek!</figcaption>
+            <p id="BannerBlurb"> I am a product manager with several interests. I created this website to
+                document my learnings and thoughts
+                and hope that it will be useful to you as well. Please click on any topics that might interest you</p>
+        </figure>
     </div>
+
+
+    <section id="SectionGrid">
+        <div class="Sections">
+            <img src="crypto.svg" alt="Web3">
+            <figcaption>Web3</figcaption>
+        </div>
+        <div class="Sections">
+            <img src="tech.svg" alt="Tech">
+            <figcaption>Tech</figcaption>
+        </div>
+        <div class="Sections">
+            <img src="crypto-trading.svg" alt="Sections">
+            <figcaption>CryptoTrading</figcaption>
+        </div>
+        <div class="Sections">
+            <img src="notes.svg" alt="Notes">
+            <figcaption>Notes</figcaption>
+        </div>
+        <div class="Sections">
+            <img src="travel.svg" alt="Travel">
+            <figcaption>Travel</figcaption>
+        </div>
+
+    </section>
 </body>
 
 </html>

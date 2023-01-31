@@ -1,5 +1,9 @@
 html {
     background-color: #f1faee;
+    /* #e7ecef; */
+    color: #1d3557;
+    /* #2d3142; */
+    /* #cbd4c2; */
 }
 
 
@@ -25,12 +29,12 @@ h1 {
     flex-direction: column;
     align-items: center;
 
+
 }
 
 #BannerImage {
     height: auto;
     width: 25%;
-    border-radius: 15%;
 }
 
 #SectionGrid {
@@ -57,25 +61,15 @@ figure {
 
 #BannerSubtitle {
     font-weight: 800;
-    font-size: 2.25em;
+    font-size: 2.5em;
     font-family: 'Mukta', Verdana, Geneva, Tahoma, sans-serif;
     color: #e63946;
-    display: flex;
-    justify-content: center;
-    width: 60%;
 }
 
 #BannerBlurb {
-
-    display: flex;
     margin-top: 0px;
     margin-bottom: 0px;
-    width: 80%;
-    justify-content: center;
-    text-align: center;
-    font-weight: 500;
-    font-size: 1.1em;
-    color: #343636;
+    color: #1d3557;
 }
 
 p {
@@ -86,7 +80,7 @@ p {
     justify-content: center;
 }
 
-.Sections>img {
+img {
     height: 5em;
     width: 6em;
     /* background-color: #a8dadc; */
