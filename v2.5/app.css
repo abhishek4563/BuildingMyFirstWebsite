@@ -1,0 +1,226 @@
+html {
+    background-color: #181818;
+    color: #fef4f6;
+    /* #f1faee; */
+}
+
+#NavHomeIcon {
+    height: 2em;
+    border-radius: 50%;
+}
+
+/* i had used a direct desendant selector here, while a descendant selector can do the the trick once i changed the structure of Nav */
+nav a {
+    text-decoration: none;
+    color: #fef4f6;
+}
+
+#IconAbhishek {
+    color: #ea552a;
+    font-weight: 800;
+
+}
+
+/* !!!I need to play with max-width, grow and direction to allocate space to elements on my page!!!
+TODOs
+1. creat basic layout - complete
+    get the navigation right
+    decide the layout
+    ensure that elements are sized and placed correctly 
+    finishing touches - background, images, avatar, etc.
+2. create placeholder pages for links
+3. get it working for phone, tablet and desktop widths
+4. host on AWS
+5. go live with new site
+
+Notes
+
+Also with fixed position, top 0, as well as with overflow property hidden and change colours on hovering
+some inspiration here: https://developer.mozilla.org/en-US/docs/Web/CSS/overflow 
+but first i will revise the sections on positioning and animations - and apply them to the website as well
+add some sort of transition to my website and optimise it for the ipad that i have and Neha's and my phone
+  */
+#TopNav {
+    /* TODO: add responsive code for when width is smaller as it mushes together right now  */
+    display: flex;
+    /* flex-basis: 900px; */
+    width: 90%;
+    height: 5%;
+    position: fixed;
+
+
+    /* margin: 2px; */
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Mukta', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+
+#TopNavTopics {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    flex-shrink: 0.5;
+}
+
+#TopNavContact {
+    font-weight: 100;
+    border: solid 1px #fef4f6;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    /* border-radius: 0.1em; */
+}
+
+h1 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 2.25em;
+    font-family: 'Merriweather', Verdana, Geneva, Tahoma, sans-serif;
+    color: #001219;
+    /* color: #50514f; */
+    position: static;
+    margin-top: 0.35em;
+    margin-bottom: 0.35em;
+    /* text-decoration: rgb(28, 4, 4) underline; */
+    /* letter-spacing: 5px; */
+}
+
+#Banner {
+    /* text-align: center; */
+    /* position: relative; */
+    width: 100%;
+    display: flex;
+    /* FIND out if width and height mean nothing in flexbox
+    Find out how to send content to background when scrolling over nav thats fixed at the top 
+    find out correct way of dividng the page into sections, whats above fold, below fold*/
+    /* height: 40%; */
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#BannerImage {
+    height: auto;
+    width: 20%;
+    border-radius: 15%;
+}
+
+#SectionGrid {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.Sections,
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Sections {
+    font-weight: 700;
+    font-size: 1.5em;
+    font-family: 'Mukta', Verdana, Geneva, Tahoma, sans-serif;
+    color: #fef4f6;
+    /* #e63946; */
+}
+
+#BannerSubtitle {
+    font-weight: 800;
+    font-size: 2.25em;
+    font-family: 'Mukta', Verdana, Geneva, Tahoma, sans-serif;
+    color: #fef4f6;
+    /* #fab228 */
+    /* color: #e63946; */
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+#BannerBlurb {
+
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 80%;
+    justify-content: center;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.1em;
+    color: #fef4f6;
+    /* color: #343636; */
+}
+
+p {
+    font-weight: 400;
+    font-size: 1em;
+    font-family: 'Mukta', Verdana, Geneva, Tahoma, sans-serif;
+    color: #001219;
+    width: 60%;
+    justify-content: center;
+}
+
+#ExploreMore {
+    height: 2.5em;
+    width: 9em;
+    background-color: #55E6A5;
+    color: #181818;
+    /* border-radius: 0.75em; */
+    font-weight: 500;
+    /* padding: 0em; */
+    /* #f1faee; */
+    font-family: 'Mukta', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.25em;
+
+
+}
+
+.Sections>img {
+    height: 5em;
+    width: 6em;
+    /* background-color: #a8dadc; */
+    padding: 0.25em;
+    border-radius: 15%;
+    border: solid black;
+
+}
+
+
+/* figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+/* 
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+} */
+
+/* 
+h2 {}
+
+h3 {}
+
+p {}
+
+--font-colour1: #023047 font-family: 'Mukta',
+sans-serif;
+
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 2;
+} */
