@@ -20,7 +20,7 @@ nav a {
     font-family: 'Mukta', Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.2em;
     font-weight: 400;
-    background-color: rgba(18, 18, 18, 0.95);
+    background-color: #181818;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,32 +52,11 @@ nav a {
     /* border-radius: 0.1em; */
 }
 
-h1 {
-    text-align: center;
-    font-weight: 800;
-    font-size: 2.25em;
-    font-family: 'Merriweather', Verdana, Geneva, Tahoma, sans-serif;
-    color: #001219;
-    /* color: #50514f; */
-    position: static;
-    margin-top: 0.35em;
-    margin-bottom: 0.35em;
-    /* text-decoration: rgb(28, 4, 4) underline; */
-    /* letter-spacing: 5px; */
-}
 
 #Banner {
-    /* text-align: center; */
-    /* position: relative; */
     width: 100%;
     display: flex;
     margin-top: 7%;
-
-    /* FIND out if width and height mean nothing in flexbox
-    Find out how to send content to background when scrolling over nav thats fixed at the top 
-    find out correct way of dividng the page into sections, whats above fold, below fold*/
-    /* height: 40%; */
-    /* justify-content: center; */
     flex-direction: column;
     align-items: center;
     flex-basis: 95%;
@@ -92,28 +71,12 @@ h1 {
     border-radius: 15%;
 }
 
-#SectionGrid {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
 
-}
-
-.Sections,
 figure {
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-grow: 1.5;
-}
-
-.Sections {
-    font-weight: 700;
-    font-size: 1.5em;
-    font-family: 'Mukta', Verdana, Geneva, Tahoma, sans-serif;
-    color: #fef4f6;
-    /* #e63946; */
 }
 
 #BannerSubtitle {
@@ -169,12 +132,21 @@ p {
 
 }
 
-.Sections>img {
-    height: 5em;
-    width: 6em;
-    /* background-color: #a8dadc; */
-    padding: 0.25em;
-    border-radius: 15%;
-    border: solid black;
+#Sections {
+    display: flex;
+    margin-top: 2%;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
 
+}
+
+#Sections a {
+    font-weight: 700;
+    font-size: 1.75em;
+    font-family: 'Mukta', Verdana, Geneva, Tahoma, sans-serif;
+    color: #fab228;
+    /* #fef4f6; */
+    text-decoration: none;
 }
