@@ -1,0 +1,91 @@
+#WIP {
+    display: flex;
+    margin-top: 5%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20%;
+    padding-bottom: 10%;
+    background: url("wip1.jpg");
+    background-size: cover;
+    justify-content: center;
+    /* align-items: center;  */
+    background-position: center;
+
+}
+
+.HighlightText {
+    background-color: #181818;
+
+}
+
+
+#WIP h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow: hidden;
+    color: #fef4f6;
+    border-right: .035em solid #fef4f6;
+    white-space: nowrap;
+    justify-content: left;
+    margin-bottom: 5%;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    margin-top: 0%;
+    /* background-color: #181818; */
+    animation:
+        typing 2.75s steps(12, end) forwards, blink 1s infinite;
+    /* font-size: 1.6rem; */
+    width: 0;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 52.5%
+    }
+}
+
+@keyframes blink {
+    from {
+        border-color: #181818;
+    }
+
+    to {
+        border-color: #fef4f6;
+    }
+}
+
+/*    
+#WIP h1 {
+     font-size: 90px; 
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 2s steps(13) infinite alternate,
+        blink 800ms steps(13) infinite normal;
+    border-right: 5px solid black;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 90%;
+    }
+}
+
+@keyframes blink {
+    from {
+        border-color: black;
+    }
+
+    to {
+        border-color: transparent;
+    }
+} */
